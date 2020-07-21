@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "IIS"
+    }
+  },
+  "defaultProject": "IIS",
+  "cli": {
+    "analytics": "64f1e055-f657-4ca5-a875-0128ec2acd1c"
+  }
 }
